@@ -8,8 +8,7 @@ import ServicesPage from './pages/ServicesPage';
 import ProjectPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import AdminPage from './pages/AdminPage';
-import NotFound from './pages/NotFound'; // Import NotFoundPage component
-import DemoPage from './pages/DemoPage';
+import NotFound from './pages/NotFound'; 
 import HomePage from './pages/HomePage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -43,7 +42,6 @@ function App() {
       <Routes>
         {/* Admin Route */}
         <Route path="/admin" element={<AdminRoute />} />
-        <Route path="/demo" element={<DemoPage />} />
         
         {/* Static Pages Route */}
         <Route path="/" element={<StaticPages />} />

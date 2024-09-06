@@ -126,7 +126,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
-	color:  #4CAF50;
+	color:  white;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -300,13 +300,14 @@ body {
 	margin-top: 50px;
 }
 #services .service-item {
+	
 	flex-basis: 80%;
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 30px;
-	border-radius: 10px;
+	padding: 60px;
+	border-radius: 20px;
 	background-image: url('../assects/home-bg.png');
 	background-size: cover;
 	margin: 10px 5%;
@@ -329,6 +330,7 @@ body {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
+	
 }
 #services .service-item h2 {
 	font-size: 2rem;

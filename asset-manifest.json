@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/college_bulliton.2.0/static/css/main.a8270d04.css",
-    "main.js": "/college_bulliton.2.0/static/js/main.e297e703.js",
+    "main.css": "/college_bulliton.2.0/static/css/main.89bad2a6.css",
+    "main.js": "/college_bulliton.2.0/static/js/main.1d6d6802.js",
     "static/js/453.b502acd8.chunk.js": "/college_bulliton.2.0/static/js/453.b502acd8.chunk.js",
     "static/media/home-bg.png": "/college_bulliton.2.0/static/media/home-bg.63b30e9473d8feac0f31.png",
     "index.html": "/college_bulliton.2.0/index.html",
-    "main.a8270d04.css.map": "/college_bulliton.2.0/static/css/main.a8270d04.css.map",
-    "main.e297e703.js.map": "/college_bulliton.2.0/static/js/main.e297e703.js.map",
+    "main.89bad2a6.css.map": "/college_bulliton.2.0/static/css/main.89bad2a6.css.map",
+    "main.1d6d6802.js.map": "/college_bulliton.2.0/static/js/main.1d6d6802.js.map",
     "453.b502acd8.chunk.js.map": "/college_bulliton.2.0/static/js/453.b502acd8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8270d04.css",
-    "static/js/main.e297e703.js"
+    "static/css/main.89bad2a6.css",
+    "static/js/main.1d6d6802.js"
   ]
 }

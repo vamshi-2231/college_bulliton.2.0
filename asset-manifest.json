@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/college_bulliton.2.0/static/css/main.02f35c49.css",
-    "main.js": "/college_bulliton.2.0/static/js/main.d26b3638.js",
+    "main.js": "/college_bulliton.2.0/static/js/main.b3fc7499.js",
     "static/js/453.b502acd8.chunk.js": "/college_bulliton.2.0/static/js/453.b502acd8.chunk.js",
     "static/media/home-bg.png": "/college_bulliton.2.0/static/media/home-bg.63b30e9473d8feac0f31.png",
     "index.html": "/college_bulliton.2.0/index.html",
     "main.02f35c49.css.map": "/college_bulliton.2.0/static/css/main.02f35c49.css.map",
-    "main.d26b3638.js.map": "/college_bulliton.2.0/static/js/main.d26b3638.js.map",
+    "main.b3fc7499.js.map": "/college_bulliton.2.0/static/js/main.b3fc7499.js.map",
     "453.b502acd8.chunk.js.map": "/college_bulliton.2.0/static/js/453.b502acd8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02f35c49.css",
-    "static/js/main.d26b3638.js"
+    "static/js/main.b3fc7499.js"
   ]
 }

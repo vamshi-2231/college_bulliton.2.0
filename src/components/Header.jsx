@@ -68,7 +68,7 @@ export default function Header() {
       <div className="header container" ref={headerRef}>
         <div className="nav-bar">
           <div className="brand">
-            <a href="#home">
+            <a href="/college_bulliton.2.0">
               <h1><span>C</span>ollege <span>B</span>ulliton</h1>
             </a>
           </div>

@@ -19,7 +19,15 @@ export default function Header() {
       };
 
       // Close mobile menu when a menu item is clicked
-      const handleMenuItemClick = () => {
+      const handleMenuItemClick = (event) => {
+        event.preventDefault();
+        const targetId = event.target.getAttribute('href').substring(1); // Remove '#' from href
+        const targetElement = document.getElementById(targetId);
+        
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+
         hamburger.classList.remove('active');
         mobileMenu.classList.remove('active');
       };
@@ -30,7 +38,7 @@ export default function Header() {
         if (scroll_position > 250) {
           header.style.backgroundColor = '#29323c';
         } else {
-          header.style.backgroundColor = 'transparent';
+          header.style.backgroundColor = '#545454';
         }
       };
 
@@ -60,7 +68,7 @@ export default function Header() {
       <div className="header container" ref={headerRef}>
         <div className="nav-bar">
           <div className="brand">
-            <a href="#hero">
+            <a href="/">
               <h1><span>C</span>ollege <span>B</span>ulliton</h1>
             </a>
           </div>

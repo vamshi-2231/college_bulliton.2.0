@@ -65,10 +65,10 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color:   olivedrab;
+	color:   crimson;
 }
 .brand h1 span {
-	color: palegreen;
+	color: crimson;
 }
 
 /* Header section */
@@ -199,7 +199,7 @@ p {
 body {
 	margin: 0;
 	padding: 0;
-	padding-top: 80px;
+	padding-top: 60px;
 	 /* Adjust this value to match the height of your navbar */
 
 }

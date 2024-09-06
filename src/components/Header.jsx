@@ -22,10 +22,16 @@ export default function Header() {
       const handleMenuItemClick = (event) => {
         event.preventDefault();
         const targetId = event.target.getAttribute('href').substring(1); // Remove '#' from href
-        const targetElement = document.getElementById(targetId);
-        
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
+
+        if (targetId === 'admin') {
+          // For Admin link, change URL without scrolling
+          window.location.hash = 'admin';
+        } else {
+          const targetElement = document.getElementById(targetId);
+          
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
         }
 
         hamburger.classList.remove('active');
@@ -84,6 +90,7 @@ export default function Header() {
               <li><a href="#projects" data-after="Updates">Updates</a></li>
               <li><a href="#about" data-after="About">About</a></li>
               <li><a href="#contact" data-after="Contact">Contact</a></li>
+              <li><a href="#admin" data-after="Admin">Admin</a></li>
             </ul>
           </div>
         </div>

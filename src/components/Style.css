@@ -90,7 +90,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: #545454;
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {

@@ -1,0 +1,71 @@
+.admin-page {
+  padding: 20px;
+  background-color: #ffffff; /* White background for the admin page */
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcome-message {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sign-out-button {
+  padding: 10px 15px;
+  background-color: #ff4d4d; /* Red background for sign out */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-out-button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
+.admin-content {
+  background-color: #f1f1f1; /* Light gray background for content */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.crud-forms {
+  margin-bottom: 30px; /* Space between forms and list */
+}
+
+.create-college {
+  margin-bottom: 20px;
+}
+
+.create-college input,
+.create-college textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-college button {
+  padding: 10px 15px;
+  background-color: #4CAF50; /* Green background for buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-college button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.college-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+}

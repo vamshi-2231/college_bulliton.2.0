@@ -1,0 +1,29 @@
+.demo-page {
+    padding: 20px;
+    text-align: center; /* Center align the content */
+  }
+  
+  .college-details {
+    margin: 0 auto;
+    max-width: 600px; /* Limit the width of the details */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  .college-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+  }
+  
+  h1 {
+    font-size: 1.5rem; /* Title size */
+    margin: 10px 0; /* Space above and below the title */
+  }
+  
+  p {
+    font-size: 1rem; /* Description size */
+    color: #555; /* Dark gray color for text */
+  }

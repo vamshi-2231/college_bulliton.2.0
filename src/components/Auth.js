@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { auth } from "../config/firebase";
 import { signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth";
-// import "./Auth.css"; // Ensure you include this CSS file for styling
+import "./Auth.css"; // Ensure you include this CSS file for styling
 
 function Auth({ onSignIn, onSignOut }) {
   const [email, setEmail] = useState("");
